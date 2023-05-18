@@ -1,0 +1,41 @@
+{
+    "name": "e-commerce-backend",
+    "version": "1.0.0",
+    "description": "a backend for e-commerce application",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ritik-mewada/e-commerce-backend.git"
+    },
+    "keywords": [
+        "api",
+        "backend"
+    ],
+    "author": "ritik mewada",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ritik-mewada/e-commerce-backend/issues"
+    },
+    "homepage": "https://github.com/ritik-mewada/e-commerce-backend#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cloudinary": "^1.36.4",
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.0.3",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "express-fileupload": "^1.4.0",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.1.1",
+        "morgan": "^1.10.0",
+        "nodemailer": "^6.9.2",
+        "razorpay": "^2.8.6",
+        "stripe": "^12.5.0",
+        "swagger-ui-express": "^4.6.3",
+        "validator": "^13.9.0",
+        "yamljs": "^0.3.0"
+    }
+}
