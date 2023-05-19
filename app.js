@@ -10,6 +10,7 @@ const home = require("./routes/home");
 const user = require("./routes/user");
 const product = require("./routes/product");
 const payment = require("./routes/payment");
+const order = require("./routes/order");
 
 // for swagger documentation
 const swaggerUi = require("swagger-ui-express");
@@ -39,6 +40,7 @@ app.use("/api/v1", home);
 app.use("/api/v1", user);
 app.use("/api/v1", product);
 app.use("/api/v1", payment);
+app.use("/api/v1", order);
 
 app.get("/signup", (req, res) => {
     res.render("signUpTest");
